@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="97">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <logicalFolder name="libs" displayName="libs" projectFiles="true">
+      <logicalFolder name="Buffer" displayName="Buffer" projectFiles="true">
+        <itemPath>libs/Buffer/Buffer.h</itemPath>
+        <itemPath>libs/Buffer/VectorBuffer.h</itemPath>
+      </logicalFolder>
+      <logicalFolder name="CondVar" displayName="CondVar" projectFiles="true">
+        <itemPath>libs/CondVar/CondVar.cpp</itemPath>
+        <itemPath>libs/CondVar/CondVar.h</itemPath>
+      </logicalFolder>
+      <logicalFolder name="HTTPURIParser"
+                     displayName="HTTPURIParser"
+                     projectFiles="true">
+        <itemPath>libs/HTTPURIParser/HTTPURIParser.cpp</itemPath>
+        <itemPath>libs/HTTPURIParser/HTTPURIParser.h</itemPath>
+      </logicalFolder>
+      <logicalFolder name="Logger" displayName="Logger" projectFiles="true">
+        <itemPath>libs/Logger/Logger.cpp</itemPath>
+        <itemPath>libs/Logger/Logger.h</itemPath>
+      </logicalFolder>
+      <logicalFolder name="Mutex" displayName="Mutex" projectFiles="true">
+        <itemPath>libs/Mutex/Mutex.cpp</itemPath>
+        <itemPath>libs/Mutex/Mutex.h</itemPath>
+      </logicalFolder>
+      <logicalFolder name="TCPSocket" displayName="TCPSocket" projectFiles="true">
+        <itemPath>libs/TCPSocket/TCPSocket.cpp</itemPath>
+        <itemPath>libs/TCPSocket/TCPSocket.h</itemPath>
+      </logicalFolder>
+      <logicalFolder name="Thread" displayName="Thread" projectFiles="true">
+        <itemPath>libs/Thread/Thread.cpp</itemPath>
+        <itemPath>libs/Thread/Thread.h</itemPath>
+      </logicalFolder>
+    </logicalFolder>
+    <logicalFolder name="SourceFiles"
+                   displayName="Исходные файлы"
+                   projectFiles="true">
+      <itemPath>Cache.cpp</itemPath>
+      <itemPath>CacheEntry.cpp</itemPath>
+      <itemPath>Client.cpp</itemPath>
+      <itemPath>Downloader.cpp</itemPath>
+      <itemPath>config.cpp</itemPath>
+      <itemPath>main.cpp</itemPath>
+    </logicalFolder>
+    <logicalFolder name="HeaderFiles"
+                   displayName="Файлы заголовков"
+                   projectFiles="true">
+      <itemPath>BrokenUpHTTPRequest.h</itemPath>
+      <itemPath>Cache.h</itemPath>
+      <itemPath>CacheEntry.h</itemPath>
+      <itemPath>Client.h</itemPath>
+      <itemPath>Downloader.h</itemPath>
+      <itemPath>config.h</itemPath>
+    </logicalFolder>
+    <logicalFolder name="ResourceFiles"
+                   displayName="Файлы ресурсов"
+                   projectFiles="true">
+    </logicalFolder>
+    <logicalFolder name="TestFiles"
+                   displayName="Файлы тестов"
+                   projectFiles="false"
+                   kind="TEST_LOGICAL_FOLDER">
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Важные файлы"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <sourceRootList>
+    <Elem>libs</Elem>
+  </sourceRootList>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Debug" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <linkerTool>
+          <linkerLibItems>
+            <linkerLibStdlibItem>PosixThreads</linkerLibStdlibItem>
+          </linkerLibItems>
+        </linkerTool>
+      </compileType>
+      <item path="BrokenUpHTTPRequest.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Cache.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Cache.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="CacheEntry.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="CacheEntry.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Client.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Client.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Downloader.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Downloader.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="config.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="config.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="libs/Buffer/Buffer.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="libs/Buffer/VectorBuffer.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="libs/CondVar/CondVar.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="libs/CondVar/CondVar.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="libs/HTTPURIParser/HTTPURIParser.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="libs/HTTPURIParser/HTTPURIParser.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="libs/Logger/Logger.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="libs/Logger/Logger.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="libs/Mutex/Mutex.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="libs/Mutex/Mutex.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="libs/TCPSocket/TCPSocket.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="libs/TCPSocket/TCPSocket.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="libs/Thread/Thread.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="libs/Thread/Thread.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="main.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+    </conf>
+    <conf name="Release" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <developmentMode>5</developmentMode>
+        </cTool>
+        <ccTool>
+          <developmentMode>5</developmentMode>
+        </ccTool>
+        <fortranCompilerTool>
+          <developmentMode>5</developmentMode>
+        </fortranCompilerTool>
+        <asmTool>
+          <developmentMode>5</developmentMode>
+        </asmTool>
+      </compileType>
+      <item path="BrokenUpHTTPRequest.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Cache.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Cache.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="CacheEntry.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="CacheEntry.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Client.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Client.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Downloader.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Downloader.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="config.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="config.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="libs/Buffer/Buffer.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="libs/Buffer/VectorBuffer.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="libs/CondVar/CondVar.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="libs/CondVar/CondVar.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="libs/HTTPURIParser/HTTPURIParser.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="libs/HTTPURIParser/HTTPURIParser.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="libs/Logger/Logger.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="libs/Logger/Logger.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="libs/Mutex/Mutex.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="libs/Mutex/Mutex.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="libs/TCPSocket/TCPSocket.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="libs/TCPSocket/TCPSocket.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="libs/Thread/Thread.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="libs/Thread/Thread.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="main.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>
